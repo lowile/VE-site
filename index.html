@@ -40,18 +40,44 @@
         </form>
 
         <div class="chooser">
-            <input type="radio" name="place" id="restaurants" class="chooser-btn" value="1" checked>
-            <label for="restaurants" class="chooser-btn-label">Restaurants</label>
+            <div class="chooser-container">
+                <input type="radio" name="place" id="restaurants" class="chooser-btn" value="1" checked>
+                <label for="restaurants" class="chooser-btn-label">Restaurants</label>
 
-            <input type="radio" name="place" id="gas-stations" class="chooser-btn" value="2">
-            <label for="gas-stations" class="chooser-btn-label">Gas Stations</label>
+                <input type="radio" name="place" id="gas-stations" class="chooser-btn" value="2">
+                <label for="gas-stations" class="chooser-btn-label">Gas Stations</label>
 
-            <input type="radio" name="place" id="hospitals" class="chooser-btn" value="3">
-            <label for="hospitals" class="chooser-btn-label">Hospitals</label>
+                <input type="radio" name="place" id="hospitals" class="chooser-btn" value="3">
+                <label for="hospitals" class="chooser-btn-label">Hospitals</label>
 
-            <input type="radio" name="place" id="hairdressers" class="chooser-btn" value="4">
-            <label for="hairdressers" class="chooser-btn-label">Hairdresser`s</label>
+                <input type="radio" name="place" id="hairdressers" class="chooser-btn" value="4">
+                <label for="hairdressers" class="chooser-btn-label">Hairdresser`s</label>
 
+                <input type="radio" name="place" id="restaurants1" class="chooser-btn" value="1">
+                <label for="restaurants1" class="chooser-btn-label">Restaurants1</label>
+
+                <input type="radio" name="place" id="gas-stations1" class="chooser-btn" value="2">
+                <label for="gas-stations1" class="chooser-btn-label">Gas Stations1</label>
+
+                <input type="radio" name="place" id="hospitals1" class="chooser-btn" value="3">
+                <label for="hospitals1" class="chooser-btn-label">Hospitals1</label>
+
+                <input type="radio" name="place" id="hairdressers1" class="chooser-btn" value="4">
+                <label for="hairdressers1" class="chooser-btn-label">Hairdresser`s1</label>
+
+                <input type="radio" name="place" id="restaurants2" class="chooser-btn" value="1">
+                <label for="restaurants2" class="chooser-btn-label">Restaurants2</label>
+
+                <input type="radio" name="place" id="gas-stations2" class="chooser-btn" value="2">
+                <label for="gas-stations2" class="chooser-btn-label">Gas Stations2</label>
+
+                <input type="radio" name="place" id="hospitals2" class="chooser-btn" value="3">
+                <label for="hospitals2" class="chooser-btn-label">Hospitals2</label>
+
+                <input type="radio" name="place" id="hairdressers2" class="chooser-btn" value="4">
+                <label for="hairdressers2" class="chooser-btn-label">Hairdresser`s2</label>
+            </div>
+            <button class="chooser-open_btn" opened="1" onclick="chooserOpen(this)">Show all</button>
         </div>
 
         <div class="popular">
@@ -322,7 +348,43 @@
             </div>
         </div>
         
-        
     </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <img src="assets/LOGO.png" alt="" class="footer-top-left-logo">
+                    <a href="" class="footer-top-left-link"><img src="assets/footer/tg.png" alt="Telegram" class="footer-top-left-link-tg"></a>
+                    <a href="" class="footer-top-left-link"><img src="assets/footer/inst.png" alt="Instagram" class="footer-top-left-link-inst"></a>
+                </div>
+                <div class="footer-top-right">
+                    <a href="" class="footer-top-right-link">About Us</a>
+                    <a href="" class="footer-top-right-link">Terms</a>
+                    <a href="" class="footer-top-right-link">Confidentiality</a>
+                    <a href="" class="footer-top-right-link">For business owners</a>
+                </div>
+            </div>
+            <div class="footer-mid">
+                <p class="footer-mid-email">everywhere.comp@gmail.com</p>
+                <div class="footer-mid-buttons">
+                    <button class="footer-mid-buttons-add_place">Add place</button>
+                    <img src="assets/footer/gplay.png" alt="" class="footer-mid-buttons-btn" onclick="window.location.href ='https://play.google.com/'">
+                    <img src="assets/footer/astore.png" alt="" class="footer-mid-buttons-btn">
+                </div>
+            </div>
+            <div class="footer-bot">
+                <p class="footer-bot-text">
+                    By continuing to use our site, you agree to the terms of service and privacy policy.
+                    <br>
+                    © Visit everywhere, 2022
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+
 </body>
 </html>
