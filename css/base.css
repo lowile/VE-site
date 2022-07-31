@@ -545,9 +545,15 @@ h1, h2, h3, h4, p, body, html{margin: 0;padding: 0;}
     height: 23px;
 }
 .footer-mid-email{
+    transition: .2s linear;
+    text-decoration: none;
     color: #fff;
+    opacity: .8;
     font-weight: 400;
     font-size: 24px;
+}
+.footer-mid-email:hover{
+    opacity: 1;
 }
 .footer-mid-buttons{
     display: flex;
