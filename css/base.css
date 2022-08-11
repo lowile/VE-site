@@ -402,6 +402,10 @@ h1, h2, h3, h4, p, body, html{margin: 0;padding: 0;}
 
 }
 
+.burger {
+  display: none;
+}
+
 .header-container{
     display: flex;
     justify-content: space-between;
@@ -580,4 +584,166 @@ h1, h2, h3, h4, p, body, html{margin: 0;padding: 0;}
     margin-top: 50px;
     text-align: center;
     line-height: 2em;
+}
+
+/* mobile version footer ↓ */
+
+.footer-mobile {
+  display: none;
+  background: #131620;
+}
+
+.container-mobile {
+  max-width: 331px;
+  margin: 0 auto;
+}
+
+.footer-top-top {
+  display: flex;
+  align-items: center;
+}
+
+.footer-top-mobile {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-mobile-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.telegram {
+  margin-left: 24px;
+}
+
+.instagram {
+  margin-left: 36px;
+}
+
+.footer-top-bot {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.footer-top-bot img {
+  margin-right: 16px;
+}
+
+.footer-top-bot a {
+  text-decoration: none;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.footer-mid-mobile {
+  margin-top: 30px;
+}
+
+.footer-mid-mobile a {
+  text-decoration: none;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.footer-nav-mobile-bot {
+  margin-top: 16px;
+}
+
+.footer-nav-mobile-top-link {
+  margin-right: 102px;
+}
+
+.footer-nav-mobile-bot-link {
+  margin-right: 125px;
+}
+
+.footer-mid-mobile-stores img {
+  width: 150px;
+  height: 44px;
+}
+
+.footer-mid-mobile-stores {
+  margin-top: 31px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-mob-bot-text-top {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 235px;
+  margin: 0 auto;
+}
+
+.footer-mob-bot-text-bot {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  margin-top: 19px;
+  width: 208px;
+}
+
+.footer-mobile-bot {
+  margin-top: 48px;
+  padding-bottom: 35px;
+}
+
+/* mobile version footer ↑ */
+
+@media screen and (max-width: 375px) {
+  .container{
+      max-width: 331px;
+      margin: 0 auto;
+  }
+  .header-logo {
+    width: 64px;
+    height: 64px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-right {
+    display: none;
+  }
+  .header-city {
+    margin-left: 70px;
+  }
+  .burger {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  .header::after {
+    display: none;
+  }
+  .header {
+    padding-bottom: 0px;
+  }
+  .footer {
+    display: none;
+  }
+  .footer-mobile {
+    display: block;
+  }
 }

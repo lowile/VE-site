@@ -276,3 +276,55 @@ font-family: 'Nunito';
 .footer {
   margin-top: 80px;
 }
+
+@media screen and (max-width: 375px) {
+  .container1 {
+    max-width: 320px ;
+  }
+  .type {
+    margin-left: 0px;
+    margin-top: 15px;
+    padding-bottom: 32px;
+  }
+  .main {
+    padding-top: 0px;
+  }
+  .plans {
+    flex-direction: column;
+  }
+  .center-plan {
+    margin: 0;
+    width: 320px;
+    height: 544px;
+    order: -1;
+    margin-bottom: 36px;
+  }
+  .plan {
+    width: 320px;
+    height: 566px;
+    margin-bottom: 36px;
+  }
+  .list {
+    margin-left: 36px;
+  }
+  .list-center {
+    margin-bottom: 24px;
+  }
+  .description-center {
+    margin-top: 0;
+  }
+  .submit-center {
+    margin-top: 36px;
+  }
+  .plan h1 {
+    margin-top: 24px;
+    margin-left: 24px;
+  }
+  .description {
+    margin-left: 24px;
+  }
+  .footer {
+    padding-top: 0;
+    margin-top: 22px;
+  }
+}
