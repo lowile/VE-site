@@ -8,9 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Filter page</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/search.css">
+  <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
+  <!--
   <header class="header">
     <div class="container">
       <img src="images/logo.png" alt="" class="logo">
@@ -39,10 +41,35 @@
       <a href="#" class="btn">Sign Up</a>
     </div>
   </header>
+  -->
+  <div class="header">
+      <div class="container header-container">
+          <div class="header-left">
+              <img src="assets/LOGO.png" alt="VE" class="header-logo">
+              <div class="header-city">Kyiv</div>
+          </div>
+          <nav class="header-nav">
+              <a href="" class="header-nav-link">Filters</a>
+              <a href="" class="header-nav-link">Events</a>
+              <a href="" class="header-nav-link">Discounts</a>
+          </nav>
+          <div class="header-right">
+              <div class="header-lang">En</div>
+              <button class="header-login">Sign in</button>
+          </div>
+          <button type="button" class="burger"><img src="assets/burger.png" alt=""></button>
+      </div>
+  </div>
   <section class="filters">
     <div class="container2">
+      <form class="mobile-search-form">
+        <input type="search" class="mobile-search" placeholder="Search"></input>
+        <button class="mobile-search-filters"><img src="assets/filter.png" alt="" class="mobile-filter-logo"></button>
+        <button class="mobile-search-submit"><img src="assets/searchicon-fff.png" alt=""></button>
+      </form>
       <div class="filterscontainer">
       <h1 class="h">Search</h1>
+      <div class="fil1">
       <h2 class="fp">Filters</h2>
       <ul class="list">
         <li>
@@ -78,6 +105,8 @@
           </label>
         </li>
       </ul>
+      </div>
+      <div class="fil2">
       <ul class="filters2">
         <li>
 
@@ -121,6 +150,8 @@
             </ul>
           </li>
         </ul>
+        </div>
+        <div class="fil3">
         <ul class="filters2">
           <li>
             <p class="p2"><img src="images/Vector.png" alt="" class="vector">Filters</p>
@@ -164,12 +195,13 @@
             </li>
           </ul>
           </div>
+          </div>
           <div class="main">
             <form class="search" action="">
               <input type="text" class="search-input" placeholder="Search the best places for you">
               <button type="submit" name="button" class="search-submit"><img src="images/search.png" alt=""></button>
             </form>
-            <div class="cards">
+            <div class="cards" class="cards1" id="cards">
               <section class="card">
                 <img src="images/view.png" alt="" class="card-img">
                 <h2>Bakery</h2>
@@ -220,86 +252,7 @@
                   </div>
                 </div>
               </section>
-              <section class="card">
-                <img src="images/view.png" alt="" class="card-img">
-                <h2>Bakery</h2>
-                <div class="type-section">
-                  <img src="images/dish.png" alt="" class="dish">
-                  <h3>American, Vegetarian...</h3>
-                </div>
-                <div class="street">
-                  <img src="images/gps.png" alt="" class="gps">
-                  <h3>St. Kreshchatyk, 190</h3>
-                </div>
-                <div class="bottom">
-                  <div class="dollar">
-                    <img src="images/dollar.png" alt="">
-                    <img src="images/dollar.png" alt="" class="middle">
-                    <img src="images/dollar.png" alt="">
-                  </div>
-                  <div class="dot">
-
-                  </div>
-                  <div class="rate">
-                    <p>5.0</p>
-                  </div>
-                </div>
-              </section>
-
-
-            </div>
-            <div class="cards">
-              <section class="card">
-                <img src="images/view.png" alt="" class="card-img">
-                <h2>Bakery</h2>
-                <div class="type-section">
-                  <img src="images/dish.png" alt="" class="dish">
-                  <h3>American, Vegetarian...</h3>
-                </div>
-                <div class="street">
-                  <img src="images/gps.png" alt="" class="gps">
-                  <h3>St. Kreshchatyk, 190</h3>
-                </div>
-                <div class="bottom">
-                  <div class="dollar">
-                    <img src="images/dollar.png" alt="">
-                    <img src="images/dollar.png" alt="" class="middle">
-                    <img src="images/dollar.png" alt="">
-                  </div>
-                  <div class="dot">
-
-                  </div>
-                  <div class="rate">
-                    <p>5.0</p>
-                  </div>
-                </div>
-              </section>
-              <section class="card">
-                <img src="images/view.png" alt="" class="card-img">
-                <h2>Bakery</h2>
-                <div class="type-section">
-                  <img src="images/dish.png" alt="" class="dish">
-                  <h3>American, Vegetarian...</h3>
-                </div>
-                <div class="street">
-                  <img src="images/gps.png" alt="" class="gps">
-                  <h3>St. Kreshchatyk, 190</h3>
-                </div>
-                <div class="bottom">
-                  <div class="dollar">
-                    <img src="images/dollar.png" alt="">
-                    <img src="images/dollar.png" alt="" class="middle">
-                    <img src="images/dollar.png" alt="">
-                  </div>
-                  <div class="dot">
-
-                  </div>
-                  <div class="rate">
-                    <p>5.0</p>
-                  </div>
-                </div>
-              </section>
-              <section class="card">
+              <section class="card1">
                 <img src="images/view.png" alt="" class="card-img">
                 <h2>Bakery</h2>
                 <div class="type-section">
@@ -328,6 +281,85 @@
 
             </div>
             <div class="cards">
+              <section class="card">
+                <img src="images/view.png" alt="" class="card-img">
+                <h2>Bakery</h2>
+                <div class="type-section">
+                  <img src="images/dish.png" alt="" class="dish">
+                  <h3>American, Vegetarian...</h3>
+                </div>
+                <div class="street">
+                  <img src="images/gps.png" alt="" class="gps">
+                  <h3>St. Kreshchatyk, 190</h3>
+                </div>
+                <div class="bottom">
+                  <div class="dollar">
+                    <img src="images/dollar.png" alt="">
+                    <img src="images/dollar.png" alt="" class="middle">
+                    <img src="images/dollar.png" alt="">
+                  </div>
+                  <div class="dot">
+
+                  </div>
+                  <div class="rate">
+                    <p>5.0</p>
+                  </div>
+                </div>
+              </section>
+              <section class="card">
+                <img src="images/view.png" alt="" class="card-img">
+                <h2>Bakery</h2>
+                <div class="type-section">
+                  <img src="images/dish.png" alt="" class="dish">
+                  <h3>American, Vegetarian...</h3>
+                </div>
+                <div class="street">
+                  <img src="images/gps.png" alt="" class="gps">
+                  <h3>St. Kreshchatyk, 190</h3>
+                </div>
+                <div class="bottom">
+                  <div class="dollar">
+                    <img src="images/dollar.png" alt="">
+                    <img src="images/dollar.png" alt="" class="middle">
+                    <img src="images/dollar.png" alt="">
+                  </div>
+                  <div class="dot">
+
+                  </div>
+                  <div class="rate">
+                    <p>5.0</p>
+                  </div>
+                </div>
+              </section>
+              <section class="card1">
+                <img src="images/view.png" alt="" class="card-img">
+                <h2>Bakery</h2>
+                <div class="type-section">
+                  <img src="images/dish.png" alt="" class="dish">
+                  <h3>American, Vegetarian...</h3>
+                </div>
+                <div class="street">
+                  <img src="images/gps.png" alt="" class="gps">
+                  <h3>St. Kreshchatyk, 190</h3>
+                </div>
+                <div class="bottom">
+                  <div class="dollar">
+                    <img src="images/dollar.png" alt="">
+                    <img src="images/dollar.png" alt="" class="middle">
+                    <img src="images/dollar.png" alt="">
+                  </div>
+                  <div class="dot">
+
+                  </div>
+                  <div class="rate">
+                    <p>5.0</p>
+                  </div>
+                </div>
+              </section>
+
+
+            </div>
+            <div class="cards1">
               <section class="card">
                 <img src="images/view.png" alt="" class="card-img">
                 <h2>Bakery</h2>
@@ -415,8 +447,8 @@
       <div class="footer-top">
         <div class="footer-top-left">
           <img src="images/logo.png" alt="" class="foot-logo">
-          <a href="#" class="telegram"><img src="images/telegram.png" alt=""></a>
-          <a href="#" class="instagram"><img src="images/instagram.png" alt=""></a>
+          <a href="#" class="telegrammm"><img src="images/telegram.png" alt=""></a>
+          <a href="#" class="instagrammm"><img src="images/instagram.png" alt=""></a>
         </div>
         <div class="footer-top-right">
           <a href="#" class="footer-top-link">About Us</a>
@@ -447,6 +479,41 @@
           </p>
       </div>
     </div>
+  </footer>
+  <footer class="footer-mobile">
+      <div class="container-mobile">
+          <div class="footer-top-mobile">
+              <div class="footer-top-top">
+                  <img src="assets/LOGO.png" alt="" class="footer-mobile-logo">
+                  <a href="" class="telegram"><img src="assets/footer/tg.png" alt="Telegram" class="footer-top-left-link-tg"></a>
+                  <a href="" class="instagram"><img src="assets/footer/inst.png" alt="Instagram" class="footer-top-left-link-inst"></a>
+              </div>
+              <div class="footer-top-bot">
+                <img src="assets/footer/email.png" alt="">
+                <a href="#">everywhere.comp@gmail.com</a>
+              </div>
+          </div>
+          <div class="footer-mid-mobile">
+            <div class="footer-nav-mobile">
+              <div class="footer-nav-mobile-top">
+                <a href="" class="footer-nav-mobile-top-link">About Us</a>
+                <a href="">Confidentiality</a>
+              </div>
+              <div class="footer-nav-mobile-bot">
+                <a href="" class="footer-nav-mobile-bot-link">Terms</a>
+                <a href="">For business owners</a>
+              </div>
+            </div>
+            <div class="footer-mid-mobile-stores">
+              <a href=""><img src="assets/footer/astore.png" alt=""></a>
+              <a href=""><img src="assets/footer/gplay.png" alt=""></a>
+            </div>
+          </div>
+          <div class="footer-mobile-bot">
+            <p class="footer-mob-bot-text-top">By continuing to use our site, you agree to the terms of service and privacy policy. </p>
+            <p class="footer-mob-bot-text-bot">© Visit everywhere, 2022</p>
+          </div>
+      </div>
   </footer>
 </body>
 </html>

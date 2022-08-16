@@ -11,12 +11,7 @@ div, p, input, button, form, span a {
   box-sizing: border-box;
 }
 
-.header{
-  background: #292B2E;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-  padding-bottom: 23px;
-  padding-top: 37px;
-}
+
 
 .container {
   display: flex;
@@ -127,6 +122,7 @@ li {
 .filters {
   background: #292B2E;
   padding-bottom: 32px;
+  margin-top: 30px;
 }
 
 .h {
@@ -349,6 +345,13 @@ li {
   border-radius: 16px;
 }
 
+.card1 {
+  border: 2px solid #494A4D;
+  height: 372px;
+  width: 280px;
+  border-radius: 16px;
+}
+
 .card-img {
 
 }
@@ -364,7 +367,28 @@ margin-left: 24px;
 margin-top: 16px;
 }
 
+.card1 h2 {
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 28px;
+color: white;
+margin-left: 24px;
+margin-top: 16px;
+}
+
 .card h3 {
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: white;
+margin-left: 8px;
+}
+
+.card1 h3 {
   font-family: 'Nunito';
 font-style: normal;
 font-weight: 400;
@@ -453,6 +477,13 @@ color: #000000;
   justify-content: space-between;
 }
 
+.cards1 {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .footer {
   padding-top: 32px;
   height: 306px;
@@ -466,28 +497,16 @@ color: #000000;
   flex-direction: column;
 }
 
-.telegram {
+.telegrammm {
   padding-left: 42px;
 }
 
-.instagram {
+.instagrammm {
   padding-left: 64px;
 }
 
-.footer-top-left {
-  display: flex;
-  align-items: center;
-}
 
-.footer-top {
-  display: flex;
-  flex-direction: row;
-}
 
-.footer-top-right {
-  padding-top: 21px;
-  padding-left: 242px;
-}
 
 .footer-top-link {
   margin-right: 32px;
@@ -591,4 +610,227 @@ margin-top: 8px;
 
 .footer-bottom {
   padding-top: 48px;
+}
+
+.mobile-search {
+  display: none;
+  background: #D9D9D9;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: -0.002em;
+  color: #6D6D6D;
+  border: none;
+  margin-left: 24px;
+  outline: none;
+  width: 212px;
+}
+
+.mobile-search-form {
+  width: 318px;
+  height: 48px;
+  display: flex;
+  width: 100%;
+  display: none;
+  background: #D9D9D9;
+  border-radius: 70px;
+  aling-items: center;
+  flex-direction: row;
+  margin-bottom: 32px;
+  justify-content: space-between;
+}
+
+.mobile-search-filters {
+  background: none;
+  border: none;
+}
+
+.mobile-filter-logo {
+  width: 18.75px;
+  height: 16.78px;
+}
+
+.mobile-search-submit {
+  width: 42px;
+  height: 42px;
+  border-radius: 100px;
+  background: #38405F;
+  border: none;
+  margin-top: 3px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-search-submit img {
+  width: 17px;
+  height: 17px;
+}
+
+.footer-mobile {
+  display: none;
+}
+
+.footer-middle {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 320px;
+  }
+  .container2 {
+    max-width: 320px;
+  }
+
+  .header-container {
+    width: 320px;
+  }
+
+  .logo {
+    width: 64px;
+    height: 64px;
+  }
+  .navigation {
+    display: none;
+  }
+  .container2 h1 {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .container2 {
+    flex-direction: column;
+  }
+  .filterscontainer {
+    display:flex;
+    flex-direction: row;
+    height: 248px;
+  }
+  .fil3 {
+    display: none;
+  }
+  .fil2 {
+    margin-left: 74px;
+  }
+  .fp {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+  }
+  .p2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+  }
+  .mobile-search {
+    display: flex;
+  }
+
+  .filters {
+    margin-top: 11px;
+  }
+
+  .mobile-search-form {
+    display: flex;
+  }
+  .card {
+    height: 232px;
+    width: 148px;
+  }
+
+  .card1 {
+    height: 232px;
+    width: 148px;
+  }
+
+  .card-img {
+    height: 101px;
+    width: 148px;
+    border-radius: 16px 16px 0px 0px;
+  }
+  .card h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.002em;
+    color: #FFFFFF;
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+  .dish {
+    height: 16px;
+    width: 16px;
+    margin-left: 8px;
+  }
+
+  .card h3 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+  }
+  .type-section {
+    margin-top: 8px;
+  }
+  .gps {
+    height: 16px;
+    width: 16px;
+    margin-left: 8px;
+  }
+  .street {
+    margin-top: 8px;
+  }
+  .dollar {
+    height: 26px;
+    width: 38px;
+  }
+  .dollar img {
+    height: 10px;
+    width: 6px;
+  }
+  .bottom {
+    margin-left: 8px;
+    margin-top: 8px;
+    width: 132px;
+  }
+  .rate {
+    height: 26px;
+    width: 38px;
+  }
+  .rate p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .cards1 {
+    display: none;
+  }
+  .card1 {
+    display: none;
+  }
+  .footer-mobile {
+    display: block;
+  }
 }
