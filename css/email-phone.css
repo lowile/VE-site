@@ -1,0 +1,83 @@
+.restore {
+  margin: 0 auto;
+  width: 579px;
+  height: 349px;
+  background: #131620;
+  border: 2px solid #494A4D;
+  border-radius: 16px;
+  margin-top: 142px;
+  margin-bottom: 143px;
+}
+
+.restore h1 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  color: #FFFFFF;
+  margin-top: 36px;
+  padding-left: 48px;
+}
+
+.restore h2 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.002em;
+  color: #D4D4D5;
+  margin-top: 16px;
+  padding-left: 48px;
+}
+
+.email-phone {
+  margin-left: 48px;
+  margin-top: 48px;
+}
+
+.email-phone input {
+  padding-left: 24px;
+  background: none;
+  outline: none;
+  border: none;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #808080;
+  width: 483px;
+  height: 36px;
+}
+
+.line {
+  margin-top: 8px;
+  width: 483px;
+  height: 1px;
+  background: #D4D4D5;
+}
+
+.restore-btn {
+  margin-top: 48px;
+  width: 180px;
+  height: 56px;
+  left: 870px;
+  top: 539px;
+  background: #38405F;
+  border-radius: 32px;
+  border: none;
+  margin-left: 199px;
+  cursor: pointer;
+}
+
+.restore-btn p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.002em;
+  color: #FFFFFF;
+}
