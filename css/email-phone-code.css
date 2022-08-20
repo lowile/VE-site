@@ -9,6 +9,17 @@
   margin-bottom: 143px;
 }
 
+.restore-new {
+  margin: 0 auto;
+  width: 579px;
+  height: 389px;
+  background: #131620;
+  border: 2px solid #494A4D;
+  border-radius: 16px;
+  margin-top: 142px;
+  margin-bottom: 143px;
+}
+
 .restore h1 {
   font-family: 'Nunito';
   font-style: normal;
@@ -21,6 +32,29 @@
 }
 
 .restore h2 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.002em;
+  color: #D4D4D5;
+  margin-top: 16px;
+  padding-left: 48px;
+}
+
+.restore-new h1 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  color: #FFFFFF;
+  margin-top: 36px;
+  padding-left: 48px;
+}
+
+.restore-new h2 {
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
@@ -59,6 +93,9 @@
   background: #D4D4D5;
 }
 
+.top-input {
+}
+
 .restore-btn {
   margin-top: 48px;
   width: 180px;
@@ -80,4 +117,8 @@
   line-height: 24px;
   letter-spacing: -0.002em;
   color: #FFFFFF;
+}
+
+.bot-input {
+  margin-top: 32px;
 }
